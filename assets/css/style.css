@@ -1,0 +1,15 @@
+.title
+{
+    /*text-align: center;*/
+}
+
+.number-box, .fa.fa-gender 
+{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.push_down
+{
+    margin-top: 5%;
+}

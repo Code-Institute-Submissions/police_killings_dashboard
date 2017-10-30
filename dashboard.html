@@ -18,14 +18,54 @@
     
 </head>
 <body>
-    
-<div id ="killings_by_gender"></div>
-<h3>Number Killed</h3>
-<i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_men_killed"></span>
-<i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_women_killed"></span>
-
-<h3>Total People Killed</h3>
-<span class="number-box" id="total_people_killed"></span>
+    <nav class="navbar navbar-default">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Police Killings</a>
+	    </div>
+	  </div>
+	</nav>
+	<section class = "section">
+	    <div class = "container">
+	        <div class = "row">
+	            <div class="col-xs-12 col-sm-12 title">
+	                <h3><span class="number-box" id="total_people_killed"></span>people killed in 2015</h3>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<section class = "section">
+	    <div class = "container">
+	        <div class = "row">
+	            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+	                <div id ="killings_by_gender"></div>
+	            </div>
+	            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 push_down">
+	                <h3>Number Killed</h3>
+                    <i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_men_killed"></span>
+                    <i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_women_killed"></span>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<section class = "section">
+	    <div class = "container">
+	        <div class = "row">
+	            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+	                <div id ="pov_killing"></div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<section class = "section">
+	    <div class = "container">
+	        <div class = "row">
+	            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+	                <div id ="killings_by_age"></div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <script type="text/javascript" src="assets/js/graphs.js"></script>    
