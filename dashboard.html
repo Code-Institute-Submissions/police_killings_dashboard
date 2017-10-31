@@ -23,6 +23,9 @@
 	    <div class="navbar-header">
 	      <a class="navbar-brand" href="#">Police Killings</a>
 	    </div>
+	    <div class="navbar-header-right">
+	    	<div id="cause_of_death"></div>
+	    </div>
 	  </div>
 	</nav>
 	<section class = "section">
@@ -34,27 +37,35 @@
 	        </div>
 	    </div>
 	</section>
+	
+	<hr/>
+	
 	<section class = "section">
 	    <div class = "container">
 	        <div class = "row">
 	            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+	            	<p class="section-paragraph text-center">Police Killings by Gender</p>
 	                <div id ="killings_by_gender"></div>
 	            </div>
 	            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 push_down">
-	                <h3>Number Killed</h3>
-                    <i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_men_killed"></span>
-                    <i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_women_killed"></span>
+					<h3><i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_men_killed"></span> killed</h3>
+                    <h3><i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_women_killed"></span> killed</h3>
 	            </div>
 	        </div>
 	    </div>
 	</section>
+	
+	<hr/>
+	
 	<section class = "section">
 	    <div class = "container">
 	        <div class = "row">
 	            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+	            	<p class="section-paragraph text-center">Corilation between People killed and Poverty Area</p>
 	                <div id ="pov_killing"></div>
 	            </div>
 	            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+	            	<p class="section-paragraph text-center">No of People Killed between Age Categories</p>
 	                <div id ="killings_by_age"></div>
 	            </div>
 	        </div>

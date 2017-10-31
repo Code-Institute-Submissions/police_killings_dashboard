@@ -17,6 +17,7 @@ function makeGraphs(error, police_killings) {
     total_people_killed(ndx, "#total_people_killed");
     show_poverty_to_killing_correlation(ndx);
     age_of_people_killed(ndx);
+    show_cause_of_death(ndx)
     dc.renderAll();
 }
     
@@ -29,7 +30,7 @@ function show_gender_balance(ndx) {
     dc.barChart("#killings_by_gender")
         .height(300)
         .width(800)
-        .margins({top: 10, right: 50, bottom: 30, left: 50})
+        // .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(gender_dim)
         .group(count_by_gender)
         .transitionDuration(500)
@@ -60,7 +61,7 @@ function number_of_people_killed(ndx, gender, element) {
     );
 
     dc.numberDisplay(element)
-        .formatNumber(d3.format())
+        .formatNumber(d3.format("."))
         .valueAccessor(function (d) {
             if (d.count == 0) {
                 return 0;
@@ -85,7 +86,7 @@ function show_poverty_to_killing_correlation(ndx) {
 
     var eDim = ndx.dimension(dc.pluck("age"));
     var experienceDim = ndx.dimension(function(d){
-        return [d.age, d.pov, d.raceethnicity, d.gender, d.name, d.state];
+        return [d.age, d.pov, d.raceethnicity, d.gender, d.name, d.state, d.cause];
     });
     var povGroup = experienceDim.group();
 
@@ -102,7 +103,7 @@ function show_poverty_to_killing_correlation(ndx) {
         .yAxisLabel("Pov Rate Areas")
         .xAxisLabel("Age")
         .title(function (d) {
-            return d.key[4] + " , " + d.key[0] + " , " + d.key[5] + " , " + d.key[3] + " , " + d.key[2];
+            return d.key[4] + " , " + d.key[0] + " , " + d.key[6] + " , " + d.key[5] + " , " + d.key[3] + " , " + d.key[2];
         })
         .colorAccessor(function (d) {
             return d.key[3];
@@ -110,7 +111,7 @@ function show_poverty_to_killing_correlation(ndx) {
         .colors(genderColors)
         .dimension(experienceDim)
         .group(povGroup)
-        .margins({top: 10, right: 50, bottom: 30, left: 50});
+        // .margins({top: 10, right: 50, bottom: 30, left: 50});
 }
 
 function age_of_people_killed(ndx) {
@@ -160,7 +161,7 @@ function age_of_people_killed(ndx) {
     dc.barChart("#killings_by_age")
         .height(300)
         .width(600)
-        .margins({top: 10, right: 50, bottom: 30, left: 50})
+        // .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(age_dim)
         .group(count_by_age)
         .transitionDuration(500)
@@ -169,6 +170,15 @@ function age_of_people_killed(ndx) {
         .xAxisLabel("Age")
         .yAxisLabel("No of People")
         .yAxis().ticks(4);            
+}
+
+function show_cause_of_death(ndx) {
+    var causeDim = ndx.dimension(dc.pluck("cause"));
+    var causeSelect = causeDim.group();
+
+    dc.selectMenu("#cause_of_death")
+        .dimension(causeDim)
+        .group(causeSelect);
 }
 
 
