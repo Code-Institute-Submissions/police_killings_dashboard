@@ -61,7 +61,7 @@ function number_of_people_killed(ndx, gender, element) {
     );
 
     dc.numberDisplay(element)
-        .formatNumber(d3.format("."))
+        .formatNumber(d3.format(".0f"))
         .valueAccessor(function (d) {
             if (d.count == 0) {
                 return 0;
