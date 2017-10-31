@@ -36,6 +36,7 @@ function show_gender_balance(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Gender")
+        .yAxisLabel("No of People")
         .yAxis().ticks(4);            
 }
 
@@ -92,13 +93,13 @@ function show_poverty_to_killing_correlation(ndx) {
     var maxAge = eDim.top(1)[0].age;
 
     dc.scatterPlot("#pov_killing")
-        .width(800)
-        .height(400)
+        .width(600)
+        .height(300)
         .x(d3.scale.linear().domain([minAge,maxAge]))
         .brushOn(false)
         .symbolSize(8)
         .clipPadding(10)
-        .yAxisLabel("Pov")
+        .yAxisLabel("Pov Rate Areas")
         .xAxisLabel("Age")
         .title(function (d) {
             return d.key[4] + " , " + d.key[0] + " , " + d.key[5] + " , " + d.key[3] + " , " + d.key[2];
@@ -109,84 +110,56 @@ function show_poverty_to_killing_correlation(ndx) {
         .colors(genderColors)
         .dimension(experienceDim)
         .group(povGroup)
-        .margins({top: 10, right: 50, bottom: 75, left: 75});
+        .margins({top: 10, right: 50, bottom: 30, left: 50});
 }
 
 function age_of_people_killed(ndx) {
-    var age_dim = ndx.dimension(dc.pluck('age'));
-    var count_by_age = age_dim.group().reduce(
-        function (p, v) {
-            if (v.age <= 20) {
-                p.count++;
+    
+    var a_dim = ndx.dimension(dc.pluck('age'));
+    var age_dim = ndx.dimension(function(d){
+            if (d.age < 20) {
+                return "10's";
             }
-            else if (v.age <= 30) {
-                p.count++;
+            else if (d.age < 30) {
+                return "20's";
             }
-            else if (v.age <= 40) {
-                p.count++;
+            else if (d.age < 40) {
+                return "30's";
             }
-            else if (v.age <= 50) {
-                p.count++;
+            else if (d.age < 50) {
+                return "40's";
             }
-            else if (v.age <= 60) {
-                p.count++;
+            else if (d.age < 60) {
+                return "50's";
             }
-            else if (v.age <= 70) {
-                p.count++;
+            else if (d.age < 70) {
+                return "60's";
             }
-            else if (v.age <= 80) {
-                p.count++;
+            else if (d.age < 80) {
+                return "70's";
             }
-            else if (v.age <= 90) {
-                p.count++;
+            else if (d.age < 90) {
+                return "80's";
             }
-            else if (v.age <= 100) {
-                p.count++;
-            }
-            else
-                return 0;
-            return p;
-        },
-        function (p, v) {
-            if (v.age <= 20) {
-                p.count--;
-            }
-            else if (v.age <= 30) {
-                p.count--;
-            }
-            else if (v.age <= 40) {
-                p.count--;
-            }
-            else if (v.age <= 50) {
-                p.count--;
-            }
-            else if (v.age <= 60) {
-                p.count--;
-            }
-            else if (v.age <= 70) {
-                p.count--;
-            }
-            else if (v.age <= 80) {
-                p.count--;
-            }
-            else if (v.age <= 90) {
-                p.count--;
-            }
-            else if (v.age <= 100) {
-                p.count--;
+            else if (d.age < 100) {
+                return "90's";
             }
             else
                 return 0;
-            return p;
-        },
-        function () {
-            return {count: 0};
-        }
-    );
+        
+        
+        
 
+    });
+    var count_by_age = age_dim.group();
+
+
+    var minAge = a_dim.bottom(1)[0].age;
+    var maxAge = a_dim.top(1)[0].age;
+    
     dc.barChart("#killings_by_age")
         .height(300)
-        .width(800)
+        .width(600)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(age_dim)
         .group(count_by_age)
@@ -194,7 +167,8 @@ function age_of_people_killed(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Age")
-        .yAxis().ticks(4);          
+        .yAxisLabel("No of People")
+        .yAxis().ticks(4);            
 }
 
 
