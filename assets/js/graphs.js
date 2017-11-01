@@ -17,8 +17,10 @@ function makeGraphs(error, police_killings) {
     total_people_killed(ndx, "#total_people_killed");
     show_poverty_to_killing_correlation(ndx);
     age_of_people_killed(ndx);
-    show_cause_of_death(ndx)
+    show_cause_of_death(ndx);
+    male_female_pie_chart(ndx);
     dc.renderAll();
+    
 }
     
     
@@ -82,7 +84,7 @@ function total_people_killed(ndx, element) {
 function show_poverty_to_killing_correlation(ndx) {
     var genderColors = d3.scale.ordinal()
         .domain(["Female", "Male"])
-        .range(["pink", "blue"]);
+        .range(["red", "blue"]);
 
     var eDim = ndx.dimension(dc.pluck("age"));
     var experienceDim = ndx.dimension(function(d){
@@ -179,6 +181,18 @@ function show_cause_of_death(ndx) {
     dc.selectMenu("#cause_of_death")
         .dimension(causeDim)
         .group(causeSelect);
+}
+
+function male_female_pie_chart(ndx) {
+    var gender_dim = ndx.dimension(dc.pluck('gender'));
+    var total_count_of_people = gender_dim.group();
+    
+    dc.pieChart('#male_female_pie')
+        .height(330)
+        .radius(90)
+        .transitionDuration(1500)
+        .dimension(gender_dim)
+        .group(total_count_of_people);
 }
 
 

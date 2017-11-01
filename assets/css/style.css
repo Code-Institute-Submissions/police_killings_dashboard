@@ -1,6 +1,8 @@
 body
 {
     font-family: FontAwesome sans-serif;
+    background-color: black;
+    color: white;
 }
 
 .container
@@ -34,6 +36,7 @@ body
 {
     font-size: 60px;
     font-weight: 500;
+    color: white;
 }
 
 .fa.fa-gender
@@ -82,4 +85,38 @@ select
 option
 {
     color: white;
+}
+
+
+
+.dc-chart rect.bar
+{
+    fill: red;
+}
+
+/*.dc-chart rect.bar:hover */
+/*{*/
+/*    fill-opacity: .5;*/
+/*}*/
+
+
+
+.dc-chart .axis text {
+    font: 10px sans-serif;
+    font-weight: bold;
+    fill: white;
+}
+
+.dc-chart .x-axis-label {
+  fill: white;  
+  font-weight: bold;
+}
+
+.dc-chart .y-axis-label {
+  fill: white; 
+  font-weight: bold;
+}
+
+.dc-chart .axis line, .dc-chart .axis path {
+    stroke: white;
 }
