@@ -1,8 +1,8 @@
 body
 {
     font-family: FontAwesome sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #BEB7A4;
+    color: #ffffff;
 }
 
 .container
@@ -14,7 +14,7 @@ body
 
 .navbar-default
 {
-    background-color: black;
+    background-color: #000000;
 }
 
 .navbar-default
@@ -25,7 +25,10 @@ body
 
 .navbar-default .navbar-brand
 {
-    color: red;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
 }
 .title
 {
@@ -35,7 +38,7 @@ body
 .number-box, .fa.fa-gender 
 {
     font-size: 60px;
-    font-weight: 500;
+    font-weight: bold;
     color: white;
 }
 
@@ -47,17 +50,20 @@ body
 .push_down
 {
     margin-top: 5%;
-    padding-left: 180px;
+    padding-left: 170px;
 }
 
 .text-center
 {
     text-align: center;
+    font-weight: bolder;
+    color: #000000;
+    text-decoration: underline;
 }
 
 hr
 {
-    border-top: 1px solid red;
+    border-top: 1px solid #000000;
 }
 
 #cause_of_death
@@ -66,10 +72,17 @@ hr
     float: right;
 }
 
+/*.text*/
+/*{*/
+/*    font-size: 16px;*/
+/*    font-weight: bold;*/
+/*}*/
+
 .dc-select-menu
 {
     background-color: red;
     color: white;
+    font-weight: bold;
 }
 
 .dc-select-menu option
@@ -91,7 +104,7 @@ option
 
 .dc-chart rect.bar
 {
-    fill: red;
+    fill: #ff0000;
 }
 
 /*.dc-chart rect.bar:hover */

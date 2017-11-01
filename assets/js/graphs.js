@@ -3,6 +3,7 @@ queue()
     .await(makeGraphs);
 
 function makeGraphs(error, police_killings) {
+    
 
     var ndx = crossfilter(police_killings);
     
@@ -19,6 +20,7 @@ function makeGraphs(error, police_killings) {
     age_of_people_killed(ndx);
     show_cause_of_death(ndx);
     male_female_pie_chart(ndx);
+    
     dc.renderAll();
     
 }
@@ -175,6 +177,7 @@ function age_of_people_killed(ndx) {
 }
 
 function show_cause_of_death(ndx) {
+   
     var causeDim = ndx.dimension(dc.pluck("cause"));
     var causeSelect = causeDim.group();
 
