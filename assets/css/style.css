@@ -66,11 +66,7 @@ hr
     border-top: 1px solid #000000;
 }
 
-#cause_of_death
-{
-    margin-top: 1.3%;
-    float: right;
-}
+
 
 /*.text*/
 /*{*/
@@ -105,6 +101,11 @@ option
 .dc-chart rect.bar
 {
     fill: #ff0000;
+}
+
+.dc-chart rect.deselected {
+    stroke: none;
+    fill: #ccc;
 }
 
 /*.dc-chart rect.bar:hover */
@@ -142,8 +143,28 @@ option
     background-color: #337ab7;
 }
 
-.navbar-header-right a
+.navbar-brand
 {
-    margin-left: 49%;
-    margin-top: 0.6%;
+    display: inline-block;
 }
+
+#buttons
+{
+    display: inline-block;
+    padding-left: 480px;
+    padding-right: 40px;
+    padding-top: 7px;
+    
+    
+}
+
+#cause_of_death
+{
+    display: inline-block;
+}
+
+div.dc-chart {
+     float: none; 
+}
+
+
