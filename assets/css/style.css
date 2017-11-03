@@ -133,3 +133,17 @@ option
 .dc-chart .axis line, .dc-chart .axis path {
     stroke: white;
 }
+
+.introjs-helperLayer {
+    background-color: #337ab7;
+}
+
+.introjs-tooltip {
+    background-color: #337ab7;
+}
+
+.navbar-header-right a
+{
+    margin-left: 49%;
+    margin-top: 0.6%;
+}

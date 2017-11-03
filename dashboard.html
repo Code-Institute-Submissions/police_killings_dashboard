@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/intro.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
@@ -25,7 +26,8 @@
 	    </div>
 	    <div class="navbar-header-right">
 	    	<!--<p class "label">Cause of Death :</p>-->
-	    	<div id="cause_of_death" class = "text">Cause of Death : </div>
+	    	<a class="btn btn-large btn-success position-right" href="javascript:void(0);" onclick="javascript:introJs().start();">Start Tour</a>
+	    	<div id="cause_of_death" class = "text" data-step="7" data-intro="Cause of death" data-position='bottom'>Cause of Death : </div>
 	    </div>
 	  </div>
 	</nav>
@@ -33,7 +35,7 @@
 	    <div class = "container">
 	        <div class = "row">
 	            <div class="col-xs-12 col-sm-12 title">
-	                <h3><span class="number-box" id="total_people_killed"></span>people killed in 2015</h3>
+	                <h3 data-step="1" data-intro="Total Number of People Killed in 2015!" data-position='left'><span class="number-box" id="total_people_killed"></span>people killed in 2015</h3>
 	            </div>
 	        </div>
 	    </div>
@@ -46,11 +48,11 @@
 	        <div class = "row">
 	            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 	            	<p class="section-paragraph text-center">Police Killings by Gender</p>
-	                <div id ="killings_by_gender"></div>
+	                <div id ="killings_by_gender" data-step="2" data-intro="Ok, wasn't that fun?" data-position='left'></div>
 	            </div>
 	            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 push_down">
-					<h3><i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_men_killed"></span> killed</h3>
-                    <h3><i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_women_killed"></span> killed</h3>
+					<h3 data-step="3" data-intro="Number of men killed" data-position='top'><i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_men_killed"></span> killed</h3>
+                    <h3 data-step="4" data-intro="Number of women killed" data-position='bottom'><i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="number_of_women_killed"></span> killed</h3>
                     <!--<div id = "male_female_pie"></div>-->
 	            </div>
 	        </div>
@@ -64,11 +66,11 @@
 	        <div class = "row">
 	            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 	            	<p class="section-paragraph text-center">Corilation between People killed and Poverty Area</p>
-	                <div id ="pov_killing"></div>
+	                <div id ="pov_killing" data-step="5" data-intro="Corilation" data-position='left'></div>
 	            </div>
 	            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 	            	<p class="section-paragraph text-center">No of People Killed between Age Categories</p>
-	                <div id ="killings_by_age"></div>
+	                <div id ="killings_by_age" data-step="6" data-intro="Killings by age" data-position='right'></div>
 	            </div>
 	        </div>
 	    </div>
@@ -76,6 +78,6 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <script type="text/javascript" src="assets/js/graphs.js"></script> 
-<script type="text/javascript" src="assets/js/script.js"></script>    
+<script type="text/javascript" src="assets/js/intro.js"></script>    
 </body>
 </html>
