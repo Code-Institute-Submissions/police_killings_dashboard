@@ -1,0 +1,468 @@
+name,age,gender,raceethnicity,state,cause,pov
+A'donte Washington,16,Male,Black,AL,Gunshot,14.1
+Aaron Rutledge,27,Male,White,LA,Gunshot,28.8
+Aaron Siler,26,Male,White,WI,Gunshot,14.6
+Aaron Valdez,25,Male,Hispanic/Latino,CA,Gunshot,11.7
+Adam Jovicic,29,Male,White,OH,Gunshot,1.9
+Adam Reinhart,29,Male,White,AZ,Gunshot,58
+Adrian Hernandez,22,Male,Hispanic/Latino,CA,Gunshot,17.2
+Adrian Solis,35,Male,Hispanic/Latino,CA,Gunshot,12.2
+Alan Alverson,44,Male,White,TX,Gunshot,37.7
+Alan James,31,Male,White,MI,Gunshot,18.4
+Albert Hanson Jr,76,Male,White,CA,Gunshot,9.2
+Alec Ouzounian,40,Male,White,CA,Gunshot,4.4
+Alejandro Salazar,Unknown,Male,Hispanic/Latino,TX,Gunshot,18.1
+Alexander Long,31,Male,White,IN,Gunshot,13.1
+Alexander Myers,23,Male,White,IN,Gunshot,26
+Alexander Rivera,39,Male,Hispanic/Latino,TN,Gunshot,36.3
+Alexia Christian,25,Female,Black,GA,Gunshot,42.4
+Alfredo Rials-Torres,54,Male,Hispanic/Latino,VA,Gunshot,20.5
+Alice Brown,24,Female,White,CA,Gunshot,11.6
+Alvin Haynes,57,Male,Black,CA,Death in custody,6.4
+Amilcar Perez-Lopez,21,Male,Hispanic/Latino,CA,Gunshot,12.7
+Andre Murphy Sr,42,Male,Black,NE,Death in custody,10.3
+Andres Lara-Rodriguez,21,Male,Hispanic/Latino,KS,Gunshot,36.5
+Andrew Driver,36,Male,White,CA,Gunshot,24.4
+Andrew Jackson,26,Male,White,OK,Gunshot,20.3
+Andrew Shipley,49,Male,White,OR,Gunshot,24.8
+Andrew Toto,54,Male,White,NH,Gunshot,5.4
+Andrew Valadez,26,Male,White,CA,Gunshot,17.4
+Andrew Williams,48,Male,Black,FL,Gunshot,18.2
+Andy Martinez,33,Male,Hispanic/Latino,TX,Gunshot,58.1
+Angel Corona Jr,21,Male,Hispanic/Latino,CA,Gunshot,24.1
+Angelo West,41,Male,Black,MA,Gunshot,41.3
+Anthony Bess,48,Male,Black,TN,Gunshot,18.9
+Anthony Briggs,36,Male,Black,AL,Gunshot,8.9
+Anthony Giaquinta,41,Male,Hispanic/Latino,GA,Gunshot,9.5
+Anthony Gomez Jr,29,Male,Black,PA,Gunshot,9.3
+Anthony Hill,27,Male,Black,GA,Gunshot,18.6
+Anthony Purvis,45,Male,White,GA,Gunshot,27.8
+Antonio Perez,32,Male,Hispanic/Latino,CA,Gunshot,37.4
+Antonio Zambrano-Montes,35,Male,Hispanic/Latino,WA,Gunshot,35.9
+Artago Howard,36,Male,Black,AR,Gunshot,15.6
+Askari Roberts,35,Male,Black,GA,Taser,20.5
+Aurelio Duarte,40,Male,Hispanic/Latino,OK,Gunshot,25.1
+Austin Goodner,18,Male,White,FL,Gunshot,17.1
+Autumn Steele,34,Female,White,IA,Gunshot,26.3
+Benito Osorio,39,Male,Hispanic/Latino,CA,Gunshot,20.6
+Benjamin Quezada,21,Male,Hispanic/Latino,TX,Gunshot,36.2
+Bernard Moore,62,Male,Black,GA,Struck by vehicle,41.4
+Betty Sexton,43,Female,White,NC,Gunshot,28.7
+Billy Grimm,44,Male,White,NM,Gunshot,25.8
+Billy Patrick,29,Male,White,OK,Gunshot,19.1
+Bobby Gross,35,Male,Black,DC,Gunshot,11.9
+Bradford Leonard,50,Male,White,FL,Gunshot,14.1
+Brandon Jones,18,Male,Black,OH,Gunshot,32.8
+Brandon Lawrence,25,Male,White,TX,Gunshot,10.2
+Brandon Rapp,31,Male,White,ID,Gunshot,9.5
+Brendon Glenn,29,Male,Black,CA,Gunshot,13.2
+Brian Babb,49,Male,White,OR,Gunshot,21.6
+Brian Barbosa,23,Male,Unknown,CA,Gunshot,16.3
+Brian Fritze,45,Male,White,CO,Gunshot,7.7
+Brian Pickett,26,Male,Black,CA,Taser,23.6
+Brock Nichols,35,Male,White,KS,Gunshot,9.5
+Bruce Steward,34,Male,White,OR,Gunshot,5
+Bruce Zalonka,46,Male,Asian/Pacific Islander,HI,Gunshot,14.4
+Byron Herbert,29,Male,Black,KY,Gunshot,8.6
+Calvon Reid,39,Male,Black,FL,Taser,7.8
+Carl Lao,28,Male,Asian/Pacific Islander,CA,Gunshot,50.7
+Carlos Saavedra Ramirez,51,Male,Hispanic/Latino,AZ,Gunshot,25.8
+Carter Ray Castle,67,Male,White,KY,Gunshot,34.2
+Cary Martin,53,Male,White,FL,Gunshot,10.6
+Caso Jackson,25,Male,Black,MI,Gunshot,46.3
+Cedrick Bishop,30,Male,Black,FL,Gunshot,47.4
+Celin Nunez,24,Male,Hispanic/Latino,TX,Gunshot,40.9
+Chance Thompson,35,Male,White,CA,Taser,32.2
+Charly 'Africa' Keunang,43,Male,Black,CA,Gunshot,79.2
+Chazsten Freeman,24,Male,White,SC,Gunshot,14.4
+Chris Ingram,29,Male,White,AZ,Gunshot,10.9
+Chrislon Talbott,38,Male,Black,KY,Gunshot,10.9
+Christopher Finley,31,Male,White,AR,Gunshot,18.2
+Christopher Healy,36,Male,White,OR,Gunshot,31
+Christopher Mitchell,23,Male,White,GA,Gunshot,12.2
+Christopher Prevatt,38,Male,White,VA,Gunshot,11.6
+Clifton Reintzel,53,Male,White,WV,Gunshot,14.4
+Cody Evans,24,Male,White,UT,Gunshot,20.5
+Cody Karasek,26,Male,White,TX,Gunshot,19.4
+Cornelius Parker,28,Male,Black,MO,Gunshot,36.2
+Crystal Miley,34,Female,White,GA,Gunshot,14.8
+D'Angelo Stallworth,28,Male,Black,FL,Gunshot,20
+DaJuan Graham,40,Male,Black,MD,Taser,19.9
+Dalton Branch,51,Male,Black,NY,Gunshot,20.1
+Dana Hlavinka,44,Male,White,NE,Gunshot,16.5
+Daniel Brumley,25,Male,Hispanic/Latino,TX,Gunshot,21.5
+Daniel Caldwell,56,Male,White,AZ,Gunshot,3
+Daniel Covarrubias,37,Male,Hispanic/Latino,WA,Gunshot,18
+Daniel Davis,58,Male,White,FL,Gunshot,9.4
+Daniel Elrod,39,Male,White,NE,Gunshot,30.5
+Daniel Mejia,37,Male,Hispanic/Latino,AZ,Gunshot,15.7
+Daniel Wolfe,35,Male,Black,NJ,Gunshot,10.9
+Darin Hutchins,26,Male,Black,MD,Gunshot,51
+Darrell 'Hubbard' Gatewood,47,Male,Black,OK,Taser,33.4
+Darrell Brown,31,Male,Black,MD,Taser,46.7
+Darrell Morgan,60,Male,White,SC,Gunshot,18.4
+Darrin Langford,32,Male,Black,IL,Gunshot,26.9
+Daryl Myler,45,Male,White,ID,Gunshot,42.4
+David Cuevas,42,Male,Hispanic/Latino,FL,Gunshot,14.3
+David Gaines,17,Male,White,CO,Gunshot,25.7
+David Gandara,22,Male,Hispanic/Latino,TX,Gunshot,26.2
+David Garcia,33,Male,Hispanic/Latino,CA,Gunshot,50.6
+David Johnson,18,Male,White,NC,Gunshot,8.5
+David Kapuscinski,39,Male,White,MI,Taser,11.2
+David Kassick,59,Male,White,PA,Gunshot,7.4
+David Lynch,33,Male,White,OK,Taser,34.7
+David Parker,58,Male,White,OH,Gunshot,8.7
+David Schwalm,58,Male,White,NY,Gunshot,12.9
+David Watford,47,Male,White,LA,Struck by vehicle,43.1
+David Werblow,41,Male,White,CT,Taser,8.3
+Dean Bucheit,64,Male,White,CA,Struck by vehicle,7.3
+Dean Genova,45,Male,White,CA,Gunshot,24.3
+Deanne Choate,53,Female,White,KS,Gunshot,6.3
+Declan Owen,24,Male,White,NC,Gunshot,26.7
+Dedrick Marshall,48,Male,Black,LA,Gunshot,38.3
+Demaris Turner,29,Male,Black,FL,Gunshot,26.9
+Denis Reyes,40,Male,Hispanic/Latino,NY,Death in custody,36.7
+Dennis Fiel,34,Male,White,CA,Gunshot,10.8
+Denzel Brown,21,Male,Black,NY,Gunshot,4.4
+Derek Cruice,26,Male,White,FL,Gunshot,17.4
+Desmond Luster,45,Male,Black,TX,Gunshot,40.1
+Desmond Willis,25,Male,Black,LA,Gunshot,39.4
+Deven Guilford,17,Male,White,MI,Gunshot,8.5
+Devin Gates,24,Male,Black,CA,Gunshot,9.1
+Dewayne Carr,42,Male,Black,AZ,Gunshot,10
+Dewayne Ward Jr,29,Male,Black,CA,Gunshot,20.7
+Dexter Bethea,42,Male,Black,GA,Gunshot,19.3
+Dominick Wise,30,Male,Black,VA,Taser,14.8
+Don Smith,29,Male,Black,IN,Gunshot,21.8
+Donald 'Dontay' Ivy,39,Male,Black,NY,Taser,44.5
+Donald Hicks,63,Male,White,IL,Gunshot,11.3
+Donald Matkins,49,Male,White,MS,Gunshot,22.9
+Donte Noble,41,Male,Black,SC,Gunshot,26
+Donte Sowell,27,Male,Black,IN,Gunshot,28.9
+Doug Sparks,30,Male,White,MA,Gunshot,1.8
+Douglas Faith,60,Male,White,TX,Gunshot,15.4
+Douglas Harris,77,Male,Black,AL,Gunshot,37.5
+Ebin Proctor,19,Male,Unknown,AZ,Gunshot,21.7
+Edixon Franco,37,Male,Hispanic/Latino,CA,Gunshot,7.6
+Edward Bright Sr,54,Male,Black,MD,Gunshot,10.1
+Elias Cavazos,29,Male,Hispanic/Latino,CA,Gunshot,32
+Elton Simpson,30,Male,Black,TX,Gunshot,9.2
+Elvin Diaz,24,Male,Hispanic/Latino,NJ,Gunshot,11.1
+Enoch Gaver,21,Male,White,AZ,Gunshot,21.7
+Eric Harris,44,Male,Black,OK,Gunshot,26.7
+Eric Robinson,40,Male,White,AZ,Gunshot,16.3
+Erick Rose,32,Male,White,OK,Gunshot,18
+Erick Sanchez,22,Male,Hispanic/Latino,TX,Gunshot,17.8
+Erik Tellez,43,Male,White,AZ,Gunshot,39.9
+Ernesto Flores,52,Male,Hispanic/Latino,CA,Gunshot,23.2
+Ernesto Javier Canepa Diaz,27,Male,Hispanic/Latino,CA,Gunshot,25.7
+Ethan Noll,34,Male,White,NM,Gunshot,12.5
+Eugene Smith II,20,Male,White,TX,Gunshot,16.3
+Fednel Rhinvil,25,Male,Black,MD,Gunshot,23.4
+Felix David,24,Male,Black,NY,Gunshot,11
+Feras Morad,20,Male,Unknown,CA,Gunshot,11.3
+Fletcher Stewart,46,Male,White,AL,Gunshot,20.1
+Francis Rose III,42,Male,White,CA,Gunshot,23.6
+Francis Spivey,43,Male,White,NV,Gunshot,19.9
+Frank 'Trey' Shephard III,41,Male,Black,TX,Gunshot,14.6
+Fred Liggett Jr,59,Male,White,MO,Gunshot,14.1
+Freddie Gray,25,Male,Black,MD,Death in custody,39.1
+Fridoon Rawshannehad,42,Male,White,CA,Gunshot,23
+Garland Wingo,64,Male,White,FL,Gunshot,36.6
+Garrett Gagne,22,Male,White,MA,Struck by vehicle,7.7
+Garrett Sandeno,24,Male,White,OK,Gunshot,1.3
+Gary Collins,63,Male,White,OK,Gunshot,20.4
+Gary Kendrick,56,Male,White,CA,Gunshot,7.5
+Gary Page,60,Male,White,IN,Gunshot,20.1
+Gilbert Fleury,54,Male,White,AL,Gunshot,8.3
+Glenn Lewis,37,Male,Black,OK,Gunshot,31.3
+Gordon Kimbrell Jr,22,Male,White,FL,Gunshot,15.8
+Gregory Smith,39,Male,White,IN,Taser,8.8
+Grover Sapp Jr,45,Male,White,FL,Gunshot,19.2
+Harry Davis,57,Male,White,GA,Gunshot,6.6
+Harvey Oates,42,Male,White,WV,Gunshot,13.3
+Hashim Abdul-Rasheed,41,Male,Black,OH,Gunshot,-
+Hector Morejon,19,Male,Hispanic/Latino,CA,Gunshot,42
+Herbert Hill,26,Male,Black,OK,Gunshot,37.4
+Howard Brent Means Jr,34,Male,White,MS,Gunshot,16.1
+Howard Robbins,69,Male,White,KY,Struck by vehicle,45.4
+Hue Dang,64,Female,Asian/Pacific Islander,NJ,Struck by vehicle,19.4
+Hung Trieu,35,Male,Asian/Pacific Islander,TX,Gunshot,28.3
+Ian Sherrod,40,Male,Black,NC,Gunshot,24.6
+Isaac Holmes,19,Male,Black,MO,Gunshot,37.6
+Isaac Jimenez,27,Male,Hispanic/Latino,IL,Gunshot,31.2
+Izzy Colon,37,Male,Hispanic/Latino,FL,Gunshot,30.7
+Jacob Haglund,17,Male,White,MI,Gunshot,40
+Jamalis Hall,39,Male,Black,FL,Gunshot,54.2
+James Allen,74,Male,Black,NC,Gunshot,33.7
+James Barker,42,Male,White,UT,Gunshot,18.3
+James Bushey,47,Male,White,TX,Gunshot,34.8
+James Cooper,43,Male,White,SC,Gunshot,4
+James Damon,46,Male,White,CO,Gunshot,7.7
+James Ellis,44,Male,White,NY,Gunshot,9.5
+James Greenwell,31,Male,White,TN,Gunshot,15.4
+James Horn Jr,47,Male,White,MO,Gunshot,16.4
+James Jimenez,41,Male,Hispanic/Latino,CA,Gunshot,8.6
+James Moore,43,Male,White,OK,Struck by vehicle,21.1
+James Morris,40,Male,Unknown,OR,Gunshot,20.2
+James Strong,32,Male,Black,CO,Gunshot,12.4
+Jamie Croom,31,Male,Black,LA,Gunshot,48.4
+Jamison Childress,20,Male,White,WA,Gunshot,17.4
+Janisha Fonville,20,Female,Black,NC,Gunshot,68.2
+Jared Forsyth,33,Male,White,FL,Gunshot,14.1
+Jared Johnson,22,Male,Black,LA,Gunshot,57.1
+Jason Carter,41,Male,White,NM,Gunshot,17.6
+Jason Champion,41,Male,Black,NJ,Struck by vehicle,9.3
+Jason Evans,32,Male,White,NC,Gunshot,17.2
+Jason Hendrix,16,Male,White,MD,Gunshot,11.3
+Jason Moland,29,Male,Black,CA,Gunshot,11.6
+Jason Smith,42,Male,White,OH,Gunshot,13.4
+Javoris Washington,29,Male,Black,FL,Gunshot,28.1
+Jeff Alexander,47,Male,White,CA,Gunshot,46.2
+Jeffery Adkins,53,Male,Black,VA,Gunshot,25.7
+Jeffery Kemp,18,Male,Black,IL,Gunshot,24.9
+Jeffrey Jackson,47,Male,White,KY,Death in custody,33.2
+Jeffrey Nielson,34,Male,White,UT,Gunshot,7.7
+Jeffrey Pitts,36,Male,White,GA,Gunshot,8.1
+Jeffrey Surnow,63,Male,White,HI,Struck by vehicle,7.3
+Jeremy Anderson,36,Male,White,FL,Gunshot,7.9
+Jeremy Kelly,27,Male,Black,SC,Gunshot,24.1
+Jeremy Lett,28,Male,Black,FL,Gunshot,32.6
+Jermonte Fletcher,33,Male,Black,OH,Gunshot,26
+Jerome Caldwell,32,Male,Black,SC,Gunshot,16.6
+Jerome Nichols,42,Male,White,PA,Gunshot,11.3
+Jess Leipold,31,Male,White,PA,Gunshot,13.9
+Jessica Hernandez,17,Female,Hispanic/Latino,CO,Gunshot,11.8
+Jessica Uribe,28,Female,Unknown,AZ,Gunshot,20.9
+Jessie Williams,24,Male,White,LA,Gunshot,26.4
+Jimmy Foreman,71,Male,Unknown,AR,Gunshot,32.9
+Jimmy Robinson Jr,51,Male,Black,TX,Gunshot,36.1
+Joaquin Hernandez,28,Male,Hispanic/Latino,AZ,Gunshot,39.7
+John Acree,53,Male,White,TN,Gunshot,1.1
+John Allen,54,Male,White,NV,Gunshot,13.6
+John Ballard Gorman,45,Male,White,MS,Gunshot,31.4
+John Kaafi,33,Male,White,FL,Unknown,15.2
+John Marshall,48,Male,White,MT,Gunshot,21.6
+John O'Keefe,34,Male,White,NM,Gunshot,7.3
+John Quintero,23,Male,Hispanic/Latino,KS,Gunshot,24.1
+John Sawyer,35,Male,White,CA,Gunshot,16
+John Whittaker,33,Male,Hispanic/Latino,AK,Gunshot,18.4
+Johnathon Guillory,32,Male,White,AZ,Gunshot,7.1
+Jonathan Colley,52,Male,White,OH,Gunshot,15.3
+Jonathan Efraim,30,Male,White,NY,Gunshot,42
+Jonathan Harden,23,Male,White,CA,Gunshot,15
+Jonathan McIntosh,35,Male,White,AR,Gunshot,22.6
+Jonathan Paul,42,Male,Black,TX,Death in custody,36.4
+Jonathan Pierce,37,Male,White,FL,Gunshot,16
+Jose Antonio Espinoza Ruiz,56,Male,Hispanic/Latino,TX,Gunshot,29.3
+Jose Ceja,36,Male,Hispanic/Latino,CA,Gunshot,23.5
+Jose Herrera,27,Male,Hispanic/Latino,CA,Gunshot,20.1
+Joseph Biegert,30,Male,White,WI,Gunshot,13.6
+Joseph Caffarello,31,Male,White,IL,Gunshot,11.5
+Joseph Paffen,46,Male,White,FL,Gunshot,35.2
+Joseph Potts,51,Male,White,OK,Gunshot,21.5
+Joseph Roy,72,Male,Unknown,GA,Gunshot,14.1
+Joseph Slater,28,Male,White,CA,Death in custody,11.8
+Joseph Tassinari,63,Male,White,AZ,Gunshot,13
+Joseph Weber,28,Male,White,CA,Gunshot,6.6
+Joshua Deysie,33,Male,Hispanic/Latino,AZ,Gunshot,13.4
+Joshua Garcia,24,Male,Hispanic/Latino,TX,Gunshot,26
+Joshua Green,27,Male,White,IL,Gunshot,22.4
+Justin Fowler,24,Male,Native American,AZ,Gunshot,48.9
+Justin Tolkinen,28,Male,White,MN,Gunshot,18.1
+Justin Way,28,Male,White,FL,Gunshot,4.6
+Justus Howell,17,Male,Black,IL,Gunshot,19.1
+Karen Janks,46,Female,White,CA,Gunshot,6.6
+Karl Taylor,52,Male,Black,NY,Death in custody,9.1
+Kavonda Payton,39,Male,Black,CO,Gunshot,20.3
+Kaylene Stone,49,Female,White,AZ,Gunshot,17.6
+Kelvin Goldston,30,Male,Black,TX,Gunshot,6
+Ken Cockerel,51,Male,White,AZ,Gunshot,13
+Kendre Alston,16,Male,Black,FL,Gunshot,36.4
+Kenneth Brown,18,Male,White,OK,Gunshot,33.3
+Kenneth Buck,22,Male,Hispanic/Latino,AZ,Gunshot,8.5
+Kenneth Dothard,40,Male,Black,GA,Gunshot,17
+Kenneth Kreyssig,61,Male,White,ME,Gunshot,17.9
+Kenneth Mathena,52,Male,White,DE,Gunshot,6.4
+Kent Norman,51,Male,White,IN,Gunshot,15.1
+Kevin Allen,36,Male,Black,NJ,Gunshot,4.5
+Kevin Norton,36,Male,White,UT,Gunshot,12.4
+Kimber Key,59,Male,White,SC,Gunshot,14.5
+Kristiana Coignard,17,Female,White,TX,Gunshot,27.4
+Kyle Baker,18,Male,White,MI,Gunshot,6
+Larry Hostetter,41,Male,White,TX,Gunshot,10.3
+Larry Kobuk,33,Male,Native American,AK,Death in custody,20.2
+Lavall Hall,25,Male,Black,FL,Gunshot,8.2
+Ledarius Williams,23,Male,Black,MO,Gunshot,38.7
+Leslie Sapp III,47,Male,Black,PA,Gunshot,30.5
+Lester Brown,58,Male,White,NC,Gunshot,14.8
+Lewis Lembke,47,Male,White,OR,Gunshot,8.8
+Lionel Young,34,Male,Black,MD,Gunshot,3.5
+Loren Simpson,28,Male,White,MT,Gunshot,9.5
+Lorenzo Hayes,37,Male,Black,WA,Death in custody,24.4
+Louis Becker,87,Male,White,NY,Struck by vehicle,6.5
+Lue Vang,39,Male,Asian/Pacific Islander,CO,Gunshot,7.7
+Luis Chavez-Diaz,27,Male,Hispanic/Latino,CA,Gunshot,14.7
+Luis Molina Martinez,35,Male,Hispanic/Latino,CA,Gunshot,50.6
+Mack Long,36,Male,Black,IN,Gunshot,38.2
+Marcus Golden,24,Male,Black,MN,Gunshot,48.9
+Marcus Wheeler,26,Male,Black,NE,Gunshot,18.7
+Mario Jordan,34,Male,Black,VA,Gunshot,10.8
+Mark Adair,51,Male,White,MO,Gunshot,69.4
+Mark Cecil Hawkins,49,Male,White,OR,Gunshot,33.8
+Mark Farrar,41,Male,White,IL,Gunshot,39.1
+Mark Smith,54,Male,White,OK,Gunshot,8.9
+Markell Atkins,36,Male,Black,TN,Gunshot,34.3
+Markus Clark,26,Male,Black,FL,Unknown,51.4
+Matautu Nuu,35,Male,Asian/Pacific Islander,CA,Gunshot,29.1
+Matthew Ajibade,22,Male,Black,GA,Death in custody,30.1
+Matthew Belk,27,Male,White,TN,Gunshot,18.1
+Matthew Coates,42,Male,White,CA,Gunshot,31.1
+Matthew Hoffman,32,Male,White,CA,Gunshot,8.6
+Matthew Lundy,32,Male,White,MI,Gunshot,3.3
+Matthew Metz,25,Male,White,AZ,Gunshot,20.5
+Meagan Hockaday,26,Female,Black,CA,Gunshot,8.9
+Michael Asher,53,Male,White,KY,Gunshot,18.7
+Michael Casper,26,Male,White,ID,Gunshot,29.6
+Michael Foster,40,Male,White,KY,Gunshot,15.4
+Michael Gallagher,55,Male,White,NC,Taser,31.5
+Michael Goebel,29,Male,White,MO,Gunshot,12
+Michael Ireland,31,Male,White,MO,Gunshot,26.5
+Michael Kocher Jr,19,Male,White,HI,Struck by vehicle,5.4
+Michael Lemon,57,Male,Unknown,CA,Taser,28.2
+Michael Lowrey,40,Male,White,PA,Gunshot,11.2
+Michael McKillop,35,Male,White,DE,Gunshot,15.5
+Michael Murphy,35,Male,White,NY,Gunshot,12.6
+Michael Rodriguez,39,Male,Hispanic/Latino,CO,Gunshot,42.7
+Michael Smashey,37,Male,White,GA,Gunshot,3
+Miguel Anguel de Santos-Rodriguez,36,Male,Hispanic/Latino,TX,Gunshot,33.1
+Millard Tallant III,62,Male,White,WA,Gunshot,19.1
+Monique Deckard,43,Female,Black,CA,Gunshot,11.2
+Mychael Lynch,32,Male,White,WA,Death in custody,27.4
+Nadir Soofi,34,Male,Asian/Pacific Islander,TX,Gunshot,9.2
+Naeschylus Vinzant,37,Male,Black,CO,Gunshot,23.9
+Natasha McKenna,37,Female,Black,VA,Taser,5.6
+Nathan Massey,33,Male,White,LA,Gunshot,18.5
+Nehemiah Fischer,35,Male,White,OK,Gunshot,14.1
+Neil Seifert,40,Male,White,MA,Gunshot,16.7
+Nephi Arriguin,21,Male,Black,CA,Gunshot,1.5
+Nicholas Brickman,30,Male,White,IA,Gunshot,31.3
+Nicholas Thomas,23,Male,Black,GA,Gunshot,6.9
+Nicolas Tewa,26,Male,Native American,AZ,Gunshot,57.1
+Nikki Burtsfield,39,Female,White,WY,Gunshot,8.7
+Norman Cooper,33,Male,Black,TX,Taser,5.2
+Nuwnah Laroche,34,Female,Black,NJ,Struck by vehicle,9.3
+Omarr Jackson,37,Male,Black,LA,Gunshot,54.6
+Orlando Lopez,26,Male,Hispanic/Latino,CO,Gunshot,22.1
+Pablo Meza,24,Male,Hispanic/Latino,CA,Gunshot,25.5
+Patrick Wetter,25,Male,White,CA,Gunshot,29.4
+Paul Anderson,31,Male,Black,CA,Gunshot,22.4
+Paul Campbell,49,Male,White,MA,Gunshot,4.7
+Paul Johnson,59,Male,White,CA,Gunshot,6
+Pedro 'Pete' Juan Saldivar,50,Male,Hispanic/Latino,TX,Gunshot,24.5
+Philip Conley,37,Male,White,CA,Gunshot,5.6
+Phillip Burgess,28,Male,White,SC,Gunshot,9.7
+Phillip Garcia,26,Male,Hispanic/Latino,TX,Gunshot,6.3
+Phillip Watkins,23,Male,Black,CA,Gunshot,32.2
+Phillip White,32,Male,Black,NJ,Death in custody,34.3
+Quincy Reed Reindl,24,Male,White,MN,Gunshot,6.9
+Ralph Willis,42,Male,White,OK,Gunshot,34
+Randall Torrence,34,Male,White,KS,Taser,45.3
+Raymond Kmetz,68,Male,White,MN,Gunshot,8.7
+Reginald McGregor,31,Male,Black,TX,Gunshot,26.7
+Richard 'Buddy' Weaver,83,Male,White,OK,Gunshot,8
+Richard Carlin,35,Male,White,PA,Gunshot,36.6
+Richard Castilleja,29,Male,Hispanic/Latino,TX,Gunshot,21.7
+Richard Davis,50,Male,Black,NY,Taser,49.9
+Richard Hanna,56,Male,Unknown,CA,Gunshot,11.5
+Richard McClendon,43,Male,White,TX,Gunshot,10
+Richard Reed,38,Male,White,KS,Gunshot,10.4
+Richard White,63,Male,Black,LA,Gunshot,-
+Ricky Hall,27,Male,Black,MD,Gunshot,3.2
+Roark Cook,36,Male,White,WA,Gunshot,20.5
+Robert Box,55,Male,White,OR,Gunshot,16
+Robert Burdge,36,Male,White,CA,Gunshot,23.1
+Robert Edwards,68,Male,White,TX,Gunshot,8.6
+Robert Francis Mesch,61,Male,White,TX,Gunshot,11.5
+Robert Frost,46,Male,White,VA,Gunshot,21.8
+Robert Kohl,47,Male,White,LA,Gunshot,10.8
+Robert Rooker,26,Male,White,OH,Gunshot,18.2
+Robert Washington,37,Male,Black,CA,Gunshot,7.4
+Roberto Leon,22,Male,Hispanic/Latino,CA,Gunshot,11.2
+Roberto Ornelas,18,Male,Hispanic/Latino,FL,Unknown,16.4
+Roberto Rodriguez,39,Male,Hispanic/Latino,CA,Gunshot,38.5
+Rodney Biggs,49,Male,White,MS,Gunshot,47.1
+Rodney Walker,23,Male,Black,OK,Gunshot,26.7
+Rodolfo Velazquez,47,Male,Hispanic/Latino,CA,Gunshot,18.8
+Ronald Sneed,32,Male,Black,TX,Gunshot,18.4
+Ronell Wade,45,Male,Black,IL,Gunshot,30.2
+Roy Day,51,Male,White,TX,Gunshot,17.4
+Rub�_�n Garc�__a Villalpando,31,Male,Hispanic/Latino,TX,Gunshot,2.9
+Russell Sharrer,54,Male,White,WA,Death in custody,35.9
+Ryan Burgess,31,Male,White,AZ,Gunshot,16.2
+Salome Rodriguez Jr,23,Male,Hispanic/Latino,CA,Gunshot,39.3
+Salvador Figueroa,29,Male,Hispanic/Latino,NV,Gunshot,22.9
+Salvador Muna,28,Male,Hispanic/Latino,AZ,Gunshot,39.7
+Sam Holmes,31,Male,Black,MN,Gunshot,10.6
+Santos 'Cuate' Cortez Hernandez,24,Male,Hispanic/Latino,TX,Gunshot,30.2
+Sawyer Flache,27,Male,White,TX,Gunshot,7.3
+Scott Dunham,57,Male,White,CA,Gunshot,17.1
+Scott McAllister,39,Male,Unknown,NJ,Gunshot,5.3
+Sean Pelletier,38,Male,White,MI,Gunshot,7.1
+Sergio Navas,34,Male,Hispanic/Latino,CA,Gunshot,6.8
+Shane Watkins,39,Male,White,AL,Gunshot,17
+Shaquille Barrow,20,Male,Black,IL,Gunshot,37.5
+Shaun Johnson,35,Male,White,AZ,Gunshot,19.5
+Shawn Clyde,36,Male,White,NJ,Gunshot,15.2
+Sheldon Haleck,38,Male,Asian/Pacific Islander,HI,Taser,20.1
+Simon Hubble,33,Male,White,CA,Gunshot,19.2
+Sinthanouxay Khottavongsa,57,Male,Asian/Pacific Islander,MN,Taser,23
+Stanley Grant,38,Male,Black,AL,Gunshot,23.2
+Stanley Watson,72,Male,White,CO,Gunshot,16.8
+Stephanie Hill,37,Female,White,AZ,Gunshot,31.2
+Stephen Cunningham,47,Male,White,WA,Gunshot,24.5
+Steven Davenport,43,Male,White,MS,Taser,11
+Steven Snyder,37,Male,White,WI,Gunshot,26.6
+Talbot Schroeder,75,Male,White,NJ,Gunshot,14.3
+Terence Walker,21,Male,Black,OK,Gunshot,51.8
+Terrance Kellom,20,Male,Black,MI,Gunshot,53.8
+Terrance Moxley,29,Male,Black,OH,Taser,40.3
+Terry Garnett Jr,37,Male,Black,MD,Gunshot,4.5
+Terry Price,41,Male,Black,OK,Taser,7.5
+Tevin Barkley,22,Male,Black,FL,Gunshot,42.5
+Thaddeus McCarroll,23,Male,Black,MO,Gunshot,25.1
+Theodore Johnson,64,Male,Black,OH,Gunshot,39.8
+Thomas Allen Jr,34,Male,Black,MO,Gunshot,50.8
+Thomas Hamby,49,Male,White,UT,Gunshot,4.4
+Thong Kien Ma,32,Male,Asian/Pacific Islander,CA,Gunshot,13.8
+Tiano Meton,25,Male,Black,TX,Gunshot,44.1
+Tiffany Terry,39,Female,White,NE,Gunshot,5.5
+Tim Elliott,53,Male,Unknown,WA,Gunshot,18.4
+Timothy Jones,27,Male,White,NM,Gunshot,8.4
+Todd Allen Hodge,36,Male,White,CA,Gunshot,32
+Todd Jamal Dye,20,Male,Black,CO,Gunshot,26.6
+Tommy Smith,39,Male,White,IL,Gunshot,14
+Tony Robinson,19,Male,Black,WI,Gunshot,13.3
+Tony Ross,34,Male,White,TX,Taser,24.3
+Troy Boyd,36,Male,White,MS,Gunshot,15.5
+Tyrel Vick,34,Male,White,OK,Gunshot,20.7
+Tyrell Larsen,31,Male,White,ID,Gunshot,9.6
+Tyrone Ryerson,45,Male,Black,WI,Gunshot,11
+Tyson Hubbard,34,Male,White,NE,Gunshot,19.9
+Unknown,Unknown,Male,Unknown,TX,Gunshot,17.9
+Unknown,Unknown,Female,Unknown,TX,Gunshot,17.9
+Unknown,Unknown,Male,White,NY,Gunshot,17.9
+Victor Reyes,31,Male,Hispanic/Latino,TX,Gunshot,12.5
+Victor Terrazas,28,Male,Hispanic/Latino,CA,Gunshot,33.7
+Vincent Cordaro,57,Male,White,NY,Gunshot,1.9
+Walter Brown III,29,Male,Black,VA,Gunshot,6.6
+Walter Scott,50,Male,Black,SC,Gunshot,44.1
+Wendell King,40,Male,White,TX,Gunshot,11.2
+Wilber Castillo-Gongora,35,Male,Hispanic/Latino,TX,Taser,4
+William 'Rusty' Smith,53,Male,White,AL,Gunshot,3
+William Campbell,59,Male,Unknown,NJ,Gunshot,7.3
+William Chapman II,18,Male,Black,VA,Gunshot,35.2
+William Dick III,28,Male,Native American,WA,Taser,27.3
+William Poole,52,Male,White,NC,Gunshot,28.5
+Yuvette Henderson,38,Female,Black,CA,Gunshot,23.9
+Zaki Shinwary,48,Male,Unknown,CA,Gunshot,6.1

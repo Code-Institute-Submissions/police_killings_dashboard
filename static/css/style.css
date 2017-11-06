@@ -194,6 +194,12 @@ div.dc-chart {
     margin-left: 10px;
 }
 
+text.pie-slice.pie-label._1
+{
+    text-anchor: end !important;
+    transform: rotate(45deg);
+}
+
 
 
 @media screen and (max-width: 1199px) 

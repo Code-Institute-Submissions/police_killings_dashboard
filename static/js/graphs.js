@@ -1,5 +1,5 @@
 queue()
-    .defer(d3.csv, "data/police_killings.csv")
+    .defer(d3.json, "/data") //changed to json and /data to link it up and relate to the dashboard.py file
     .await(makeGraphs);
 
 function makeGraphs(error, police_killings) {
