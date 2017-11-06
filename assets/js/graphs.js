@@ -33,7 +33,7 @@ function show_gender_balance(ndx) {
     
     dc.barChart("#killings_by_gender")
         .height(300)
-        .width(800)
+        .width(600)
         // .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(gender_dim)
         .group(count_by_gender)
@@ -187,13 +187,18 @@ function show_cause_of_death(ndx) {
 }
 
 function male_female_pie_chart(ndx) {
+     var genderColors = d3.scale.ordinal()
+        .domain(["Female", "Male"])
+        .range(["red", "blue"]);
+        
     var gender_dim = ndx.dimension(dc.pluck('gender'));
     var total_count_of_people = gender_dim.group();
     
     dc.pieChart('#male_female_pie')
-        .height(330)
+        .height(230)
         .radius(90)
         .transitionDuration(1500)
+        .colors(genderColors)
         .dimension(gender_dim)
         .group(total_count_of_people);
 }

@@ -42,15 +42,31 @@ body
     color: white;
 }
 
-.fa.fa-gender
+.fa-male:before 
+{
+    color: blue;
+}
+
+.fa-female:before 
 {
     color: red;
 }
 
-.push_down
+/*.fa.fa-gender*/
+/*{*/
+/*    color: red;*/
+/*}*/
+
+.push_down_count
 {
     margin-top: 5%;
-    padding-left: 170px;
+    padding-left: 85px;
+}
+
+.push_down_pie
+{
+    margin-top: 4%;
+    padding-left: 70px;
 }
 
 .text-center
@@ -166,5 +182,11 @@ option
 div.dc-chart {
      float: none; 
 }
+
+#male_female_pie path
+{
+    stroke: white;
+    stroke-width: 1.5;
+}  
 
 
