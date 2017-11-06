@@ -168,7 +168,7 @@ option
 {
     display: inline-block;
     padding-left: 480px;
-    padding-right: 40px;
+    padding-right: 30px;
     padding-top: 7px;
     
     
@@ -188,5 +188,50 @@ div.dc-chart {
     stroke: white;
     stroke-width: 1.5;
 }  
+
+#buttons .margin_left
+{
+    margin-left: 10px;
+}
+
+
+
+@media screen and (max-width: 1199px) 
+{
+    #buttons
+    {
+       
+        padding-left: 280px;
+        /*padding-right: 30px;*/
+        /*padding-top: 7px;*/
+    }
+}
+
+@media screen and (max-width: 991px) 
+{
+    #buttons
+    {
+        padding-left: 0;
+    }
+    
+    /*#cause_of_death*/
+    /*{*/
+    /*    float: left;*/
+    /*}*/
+}
+
+@media screen and (max-width: 687px) 
+{
+    #cause_of_death.text.dc-chart
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    /*#cause_of_death*/
+    /*{*/
+    /*    float: left;*/
+    /*}*/
+}
 
 
