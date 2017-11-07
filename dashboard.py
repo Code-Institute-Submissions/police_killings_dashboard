@@ -17,6 +17,10 @@ FIELDS = {'name': True, 'age': True, 'gender': True, 'raceethnicity': True,
 @app.route("/")
 def index():
     return render_template("dashboard.html")
+    
+@app.route("/dashboard.html")
+def reset():
+    return render_template("dashboard.html")
 
 
 @app.route("/data")
