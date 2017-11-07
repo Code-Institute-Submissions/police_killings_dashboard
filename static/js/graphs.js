@@ -33,7 +33,7 @@ function show_gender_balance(ndx) {
     
     dc.barChart("#killings_by_gender")
         .height(300)
-        .width(600)
+        .width(550)
         // .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(gender_dim)
         .group(count_by_gender)
@@ -98,7 +98,7 @@ function show_poverty_to_killing_correlation(ndx) {
     var maxAge = eDim.top(1)[0].age;
 
     dc.scatterPlot("#pov_killing")
-        .width(600)
+        .width(450)
         .height(300)
         .x(d3.scale.linear().domain([minAge,maxAge]))
         .brushOn(false)
@@ -159,12 +159,12 @@ function age_of_people_killed(ndx) {
     var count_by_age = age_dim.group();
 
 
-    var minAge = a_dim.bottom(1)[0].age;
-    var maxAge = a_dim.top(1)[0].age;
+    // var minAge = a_dim.bottom(1)[0].age;
+    // var maxAge = a_dim.top(1)[0].age;
     
     dc.barChart("#killings_by_age")
         .height(300)
-        .width(600)
+        .width(450)
         // .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(age_dim)
         .group(count_by_age)
@@ -196,7 +196,7 @@ function male_female_pie_chart(ndx) {
     
     dc.pieChart('#male_female_pie')
         .height(230)
-        .radius(90)
+        .radius(80)
         .transitionDuration(1500)
         .colors(genderColors)
         .dimension(gender_dim)

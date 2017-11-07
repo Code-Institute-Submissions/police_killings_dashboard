@@ -12,6 +12,10 @@ body
     padding-right: 0px;
 }
 
+
+
+
+
 .navbar-default
 {
     background-color: #000000;
@@ -60,13 +64,13 @@ body
 .push_down_count
 {
     margin-top: 5%;
-    padding-left: 85px;
+    padding-left: 40px;
 }
 
 .push_down_pie
 {
     margin-top: 4%;
-    padding-left: 70px;
+    padding-left: 10px;
 }
 
 .text-center
