@@ -1,6 +1,6 @@
 ### Stream Two Dashboard Project
 
-### Live link : https://declanmunroe.github.io/stream_one_project/
+### Live link : https://police-killings-dashboard.herokuapp.com/
 
 #### Built with :
 
